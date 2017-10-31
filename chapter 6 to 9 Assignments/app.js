@@ -60,22 +60,22 @@
 
     // part 5
 
-var math =prompt("Enter Your Maths Score","50");
-var maths = parseInt(math);
-var mathP = maths*100/100;
+// var math =prompt("Enter Your Maths Score","50");
+// var maths = parseInt(math);
+// var mathP = maths*100/100;
 
-var chemistry =prompt("Enter Your Chemistry Score","50");
-var chemistrys =parseInt(chemistry);
-var chemistryP = chemistrys*100/100;
+// var chemistry =prompt("Enter Your Chemistry Score","50");
+// var chemistrys =parseInt(chemistry);
+// var chemistryP = chemistrys*100/100;
 
-var physic =prompt("Enter Your Physics Score","50");
-var physics =parseInt(physic)
-var physicsP = physics*100/100;
+// var physic =prompt("Enter Your Physics Score","50");
+// var physics =parseInt(physic)
+// var physicsP = physics*100/100;
 
-var totalOb = maths + chemistrys + physics;
+// var totalOb = maths + chemistrys + physics;
 
-var total = 100;
-var totalMr = 300;
-var totalP = totalOb*total/totalMr;
+// var total = 100;
+// var totalMr = 300;
+// var totalP = totalOb*total/totalMr;
 
-document.write("<table><tr><th>Subject</th><th>Total</th><th>Marks Obtained</th><th>Marks Percentage</th></tr><tr><td>Physics</td><td>"+total+"</td><td>"+physics+"</td><td>"+physics/100*100+"%</td></tr><tr><td>Chemistry</td><td>"+total+"</td><td>"+chemistry+"</td><td>"+chemistrys/100*100+"%</td></tr><tr><td>Maths</td><td>"+total+"</td><td>"+maths+"</td><td>"+maths/100*100+"%</td></tr><tr><td></td><td>300</td><td>"+totalOb+"</td><td>"+totalP+"%</td></tr><tr></table>");
+// document.write("<table><tr><th>Subject</th><th>Total</th><th>Marks Obtained</th><th>Marks Percentage</th></tr><tr><td>Physics</td><td>"+total+"</td><td>"+physics+"</td><td>"+physics/100*100+"%</td></tr><tr><td>Chemistry</td><td>"+total+"</td><td>"+chemistry+"</td><td>"+chemistrys/100*100+"%</td></tr><tr><td>Maths</td><td>"+total+"</td><td>"+maths+"</td><td>"+maths/100*100+"%</td></tr><tr><td></td><td>300</td><td>"+totalOb+"</td><td>"+totalP+"%</td></tr><tr></table>");
