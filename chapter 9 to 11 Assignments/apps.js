@@ -79,115 +79,115 @@
 //      alert("car is smaller than cat"); due to aski code
 //      }
 
-    //part 6
+    part 6
 
-// var math =prompt("Enter Your Maths Score","50");
-// var maths = parseInt(math);
-// var mathP = maths*100/100;
+var math =prompt("Enter Your Maths Score","50");
+var maths = parseInt(math);
+var mathP = maths*100/100;
 
-// var chemistry =prompt("Enter Your Chemistry Score","50");
-// var chemistrys =parseInt(chemistry);
-// var chemistryP = chemistrys*100/100;
+var chemistry =prompt("Enter Your Chemistry Score","50");
+var chemistrys =parseInt(chemistry);
+var chemistryP = chemistrys*100/100;
 
-// var physic =prompt("Enter Your Physics Score","50");
-// var physics =parseInt(physic)
-// var physicsP = physics*100/100;
+var physic =prompt("Enter Your Physics Score","50");
+var physics =parseInt(physic)
+var physicsP = physics*100/100;
 
-// var totalOb = maths + chemistrys + physics;
+var totalOb = maths + chemistrys + physics;
 
-// var total = 100;
-// var totalMr = 300;
-// var totalP = totalOb*total/totalMr;
+var total = 100;
+var totalMr = 300;
+var totalP = totalOb*total/totalMr;
 
-// if( totalOb > 240 ){
-//     document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade A-1 <br> Remarks: Excellent Keep It up "  )
-// } else if(totalOb > 225) {
-//     document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade A<br> Remarks:  WellDone " )
-// }else if(totalOb > 180) {
-//     document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade B <br> Remarks:  Good "  )
-// }else if(totalOb > 150) {
-//     document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade C <br> Remarks:  Need ImproveMent "  )
-// }else if(totalOb > 150) {
-//     document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade D <br> Remarks: Must Work Hard "  )
-// }else{
-// document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade F Remarks: Must Work Hard "   )
-// }
-
-
-
-//part 7
-
-//guess game
-
-// var secretNumber = 4;
-// var userSecret = prompt("Enter your secret Number","1");
-
-// if(secretNumber == userSecret ){
-//   document.write("Bingo correct Answers")
-// }else if (secretNumber  +1 + userSecret  ){
-// alert("you are near to secret Number" )
-// }else{
-//   alert("try again")
-// }
-
-//part8 
-
-
-// var number1 =prompt("Enter Your Number","2")
-// var number =parseInt(number1);
-// var number2 = number % 3
-
-// if(number2 == 0){
-// document.write("this number can be divided by 3");
-// }else{
-//   document.write("this number cannot be divided by 3");
-// }
-
-//part9
-
-// var number1 =prompt("Enter Number","2");
-// var number =parseInt(number1);
-
-// if(number % 3){
-//   alert("");
-// }
+if( totalOb > 240 ){
+    document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade A-1 <br> Remarks: Excellent Keep It up "  )
+} else if(totalOb > 225) {
+    document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade A<br> Remarks:  WellDone " )
+}else if(totalOb > 180) {
+    document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade B <br> Remarks:  Good "  )
+}else if(totalOb > 150) {
+    document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade C <br> Remarks:  Need ImproveMent "  )
+}else if(totalOb > 150) {
+    document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade D <br> Remarks: Must Work Hard "  )
+}else{
+document.write(" total marks is "+300+ "<br> Marks Obtained "+totalOb+"<br> Percentage "+totalP+ " % <br> Grade F Remarks: Must Work Hard "   )
+}
 
 
 
+part 7
 
-//part10
+guess game
 
-// var temperature = prompt("Whats is a temperature In your city","23");
+var secretNumber = 4;
+var userSecret = prompt("Enter your secret Number","1");
 
-// if(temperature > 40){
-//   document.write("it too hot Outside");
-// }else if (temperature > 30 ) {
-//   document.write("the weather today is normal ")
-// }else if (temperature > 20 ) {
-//   document.write( "today's Weather is Cool ")
-// }else if (temperature > 10 ) {
-//   document.write( "OMG today's Weather is Soo Cool ")
-// }
+if(secretNumber == userSecret ){
+  document.write("Bingo correct Answers")
+}else if (secretNumber  +1 + userSecret  ){
+alert("you are near to secret Number" )
+}else{
+  alert("try again")
+}
 
-// part 11
+part8 
 
-// var num1 = prompt("Enter the first integers","5");
-// var operate = prompt("Enter the operator","+");
-// var two2 = prompt("Enter the second integers","5");
 
-// num1 = parseFloat(num1)
-// two2 = parseFloat(two2)
-// if (operate == "+") {
-// var calculation = num1 + two2;
-// alert(calculation);
-// }else if(operate == "-"){
-//     var calculation = num1 - two2;
-//     alert(calculation);
-// }else if(operate == "*"){
-//     var calculation = num1 * two2;
-//     alert(calculation);
-// }else if(operate == "/"){
-//     var calculation = num1  / two2;
-//     alert(calculation);
-// }
+var number1 =prompt("Enter Your Number","2")
+var number =parseInt(number1);
+var number2 = number % 3
+
+if(number2 == 0){
+document.write("this number can be divided by 3");
+}else{
+  document.write("this number cannot be divided by 3");
+}
+
+part9
+
+var number1 =prompt("Enter Number","2");
+var number =parseInt(number1);
+
+if(number % 3){
+  alert("");
+}
+
+
+
+
+part10
+
+var temperature = prompt("Whats is a temperature In your city","23");
+
+if(temperature > 40){
+  document.write("it too hot Outside");
+}else if (temperature > 30 ) {
+  document.write("the weather today is normal ")
+}else if (temperature > 20 ) {
+  document.write( "today's Weather is Cool ")
+}else if (temperature > 10 ) {
+  document.write( "OMG today's Weather is Soo Cool ")
+}
+
+part 11
+
+var num1 = prompt("Enter the first integers","5");
+var operate = prompt("Enter the operator","+");
+var two2 = prompt("Enter the second integers","5");
+
+num1 = parseFloat(num1)
+two2 = parseFloat(two2)
+if (operate == "+") {
+var calculation = num1 + two2;
+alert(calculation);
+}else if(operate == "-"){
+    var calculation = num1 - two2;
+    alert(calculation);
+}else if(operate == "*"){
+    var calculation = num1 * two2;
+    alert(calculation);
+}else if(operate == "/"){
+    var calculation = num1  / two2;
+    alert(calculation);
+}
 	
