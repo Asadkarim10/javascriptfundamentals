@@ -112,29 +112,29 @@
 
 //document.write(number);
 
-// part 9
+part 9
 
-// var  number1 =[25,43,28,5,12];
+var  number1 =[25,43,28,5,12];
 
-// var number = Math.min.apply(null, number1);
+var number = Math.min.apply(null, number1);
 
-// document.write(number);
+document.write(number);
 
-// part 10
+part 10
 
-//  var a = 0;
-// for (var i = 0; i <= 100; i+=5){
-//       document.write([i]+",");
-// }
+ var a = 0;
+for (var i = 0; i <= 100; i+=5){
+      document.write([i]+",");
+}
 
-            //part11
+            part11
 
-// var pet1 = ["0","1","2","3","4","5","6"];
+var pet1 = ["0","1","2","3","4","5","6"];
 
-// var pets = prompt("kindly select your number","1"); 
-// var pets2 = pets
-// var nopats =pet1.slice(0,pets2);
-// document.write(nopats); 
+var pets = prompt("kindly select your number","1"); 
+var pets2 = pets
+var nopats =pet1.slice(0,pets2);
+document.write(nopats); 
 
 
 
