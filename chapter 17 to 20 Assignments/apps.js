@@ -148,23 +148,23 @@
 
 
 
-// part 14
+//part 14
 
-// for (var i = 7; i >= 1; i--) {
-//   var str = "";
-//   for (var j = i; j <= 7; j++) {
-//   str += "*";
-//      }
-//  document.write(str+"<br>");
-// }
+for (var i = 7; i >= 1; i--) {
+  var str = "";
+  for (var j = i; j <= 7; j++) {
+  str += "*";
+     }
+ document.write(str+"<br>");
+}
 
 
-//  for (var i = 5; i >= 1; i--) {
-//      var ouput = "";
-//      for (var j = i; j >= 1; j--) {
-//          ouput += "*"
-//      }
-// document.write(ouput+"<br>");
-//  }
+ for (var i = 5; i >= 1; i--) {
+     var ouput = "";
+     for (var j = i; j >= 1; j--) {
+         ouput += "*"
+     }
+document.write(ouput+"<br>");
+ }
  
  
