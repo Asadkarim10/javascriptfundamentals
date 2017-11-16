@@ -6,14 +6,14 @@
  // var fullname = firstName + lastName; 
 // document.write(fullname);
 
-           part2
+//            part2
 
-var myMobile =prompt("What is your favourite Mobile","Sony");
-document.write("My favourite mobile is "+myMobile+"<br>")
+// var myMobile =prompt("What is your favourite Mobile","Sony");
+// document.write("My favourite mobile is "+myMobile+"<br>")
 
-var mob = myMobile.length;
+// var mob = myMobile.length;
 
-document.write("length of String "+mob);
+// document.write("length of String "+mob);
 
 
         //part3
