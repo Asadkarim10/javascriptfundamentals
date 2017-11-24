@@ -13,11 +13,11 @@
 
 
 
-//part 3 
-// var i = 0;
-// for (i = 0; i <= 10; i++){
-// document.write("<br>"+i);
-// }
+part 3 
+var i = 0;
+for (i = 0; i <= 10; i++){
+document.write("<br>"+i);
+}
 
 
 //part 4
